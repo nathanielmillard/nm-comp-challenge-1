@@ -1,9 +1,9 @@
 .body {
-  background-color: ;
+  background-color: #FFADAD;
   border: 2px dotted;
 }
 .header {
-  background-color: ;
+  background-color: #FFD6A5;
   display: flex;
   justify-content: space-around;
   border: 2px dotted;
@@ -14,7 +14,7 @@
 }
 
 .main-section {
-  background-color: ;
+  background-color: #FDFFB6;
   border: 2px dotted;
 
 
@@ -22,7 +22,7 @@
 
 .the-box-grid{
   diplay: grid;
-  background-color: ;
+  background-color: #CAFFBF;
   border: 2px dotted;
 
 }

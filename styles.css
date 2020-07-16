@@ -5,6 +5,7 @@
 .header {
   background-color: #FFD6A5;
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
   border: 2px dotted;
 }
@@ -27,17 +28,20 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
   background-color: #CAFFBF;
   border: 2px dotted;
 
 }
 
 .box{
-  width: 110px;
-  height: 160px;
+  border: 5px;
+  width: 220px;
+  height: 320px;
 }
+
 img{
-  width: 110px;
-  height: 160px;
+  width: 220px;
+  height: 320px;
 
 }

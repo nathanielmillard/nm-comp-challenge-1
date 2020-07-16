@@ -20,30 +20,43 @@
 .main-section {
   background-color: #FDFFB6;
   border: 2px dotted;
-
-
 }
 
 .the-box-grid{
+  margin-left: 50px;
+  margin-right: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 20px;
   background-color: #CAFFBF;
   border: 2px dotted;
-
 }
 
 .box{
-  z-index: 2;
-  border: 5px;
-  width: 220px;
-  height: 320px;
+  background-color: black;
+  width: 275px;
+  height: 400px;
+  z-index: 1;
+}
+
+h4{
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  padding: 0px;
+  margin: 0px;
+  object-fit: contain;
+  z-index: 3;
 }
 
 img{
-  width: 220px;
-  height: 320px;
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+  width: 275px;
   opacity: 0.5;
-  z-index: 1;
+  z-index: 2;
+  object-fit: fill;
 }

@@ -1,0 +1,112 @@
+.body {
+  background-color: #FFADAD;
+  border: 2px dotted;
+}
+.header {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: (1fr, 1fr);
+  height: 125px;
+  border: 2px dotted;
+}
+.nav-items{
+  background-color: #9BF6FF;
+  border: 2px dotted;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#shares{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#playlist{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#personal-videos{
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#admin-username{
+  grid-column: 7;
+  grid-row: 1;
+}
+
+#logo{
+  grid-column: 7;
+  grid-row: 2;
+  height: 75px;
+  vertical-align: bottom;
+}
+
+.user-droplist {
+  justify-content: right;
+  border: 2px dotted;
+}
+
+.main-section {
+  background-color: #FDFFB6;
+  border: 2px dotted;
+}
+
+.the-box-grid{
+  margin-left: 50px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  background-color: #CAFFBF;
+  border: 2px dotted;
+}
+
+.box{
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  width: 275px;
+  height: 400px;
+  /* z-index: 1; */
+}
+
+.text-content{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  bottom: 2%;
+}
+
+h1{
+  font-size: 1.2rem;
+}
+
+h3{
+  font-size: .75rem;
+}
+
+h4{
+  font-size: .6rem;
+  font-style: italic;
+  font-display: block;
+  text-decoration: underline;
+}
+
+h5{
+  font-size: .5rem;
+}
+
+img{
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+  width: 275px;
+  opacity: 0.5;
+  z-index: 2;
+  object-fit: fill;
+}

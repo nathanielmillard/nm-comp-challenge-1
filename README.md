@@ -5,6 +5,8 @@ nm-comp-challenge
 Following formatting of a static comp given to us, I created a basic HTML website, that past responding to the size of the window, doesn't have any actual functionality. This project is looking to just explore HTML and CSS basics to replicate a mock up given to us by a "designer".
 
 ### Visuals
+Assignment: https://frontend.turing.io/projects/module-1/m1-static-comp.html  
+WireFrame: https://wireframe.cc/pro/edit/359278
 
 ### Support
 Any issues or inquires can be sent to Nathaniel on github @nathanielmillard

@@ -1,21 +1,24 @@
 .body {
-  background-color: #FFADAD;
-  border: 2px dotted;
-  font-family: sans-serif;
+  background-color: #dee2e6;
+  font-family: Lucida, monospace;
+  /* border: 2px dotted; */
 }
+
 .header {
-  background-color: grey;
+  background-color: #495057;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: (1fr, 1fr);
   height: 125px;
-  border: 2px dotted;
+  grid-gap: 20px;
 }
 .nav-items{
-  background-color: #9BF6FF;
-  border: 2px dotted;
+  background-color: #6c757d;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  height: 40%;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 #shares{
@@ -41,18 +44,17 @@
 #logo{
   grid-column: 7;
   grid-row: 2;
-  height: 75px;
+  height: 65px;
   vertical-align: bottom;
 }
 
 .user-droplist {
   justify-content: right;
-  border: 2px dotted;
+  /* border: 2px dotted; */
 }
 
 .main-section {
-  background-color: #FDFFB6;
-  border: 2px dotted;
+  background-color: #e9ecef
 }
 
 .the-box-grid{
@@ -61,8 +63,7 @@
   grid-template-rows: repeat(3, 1fr);
   height: 1500px;
   grid-gap: 20px;
-  background-color: #CAFFBF;
-  border: 2px dotted;
+  background-color: #e9ecef;
 }
 
 .box{
@@ -73,10 +74,14 @@
 }
 
 .text-content{
+  background-color: #e9ecef;
+  color: #495057;
   position: absolute;
   z-index: 999;
   margin: 0 auto;
   bottom: 2%;
+  left: 1%;
+  opacity: .75;
 }
 .corner-txt{
   position: absolute;
@@ -85,24 +90,38 @@
   top: 2%;
   right: 2%;
 }
+.main-section{
+  margin: 20px;
+}
 
 h1{
-  font-size: 1.2rem;
+  margin: 0px;
+}
+
+h2{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 1px;
 }
 
 h3{
+  margin-top: 1px;
   font-size: .75rem;
 }
 
 h4{
-  font-size: .6rem;
   font-style: italic;
   font-display: block;
   text-decoration: underline;
 }
 
 h5{
-  font-size: .5rem;
+  font-size: .7rem;
+}
+
+p{
+  color: #6c757d;
+  margin: 0;
 }
 
 img{
@@ -114,6 +133,7 @@ img{
   z-index: 2;
   object-fit: fill;
 }
+
 
 #icon{
   position: absolute;

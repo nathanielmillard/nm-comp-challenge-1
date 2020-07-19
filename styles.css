@@ -1,6 +1,7 @@
 .body {
   background-color: #FFADAD;
   border: 2px dotted;
+  font-family: sans-serif;
 }
 .header {
   background-color: grey;
@@ -55,11 +56,10 @@
 }
 
 .the-box-grid{
-  margin-left: 50px;
-  margin-right: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 1500px;
   grid-gap: 20px;
   background-color: #CAFFBF;
   border: 2px dotted;
@@ -70,9 +70,6 @@
   display: inline-block;
   color: white;
   background-color: black;
-  width: 275px;
-  height: 400px;
-  /* z-index: 1; */
 }
 
 .text-content{
@@ -80,6 +77,13 @@
   z-index: 999;
   margin: 0 auto;
   bottom: 2%;
+}
+.corner-txt{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  top: 2%;
+  right: 2%;
 }
 
 h1{
@@ -104,9 +108,42 @@ h5{
 img{
   margin: 0px;
   padding: 0px;
-  height: 400px;
-  width: 275px;
-  opacity: 0.5;
+  max-height: 100%;
+  width: 100%;
+  opacity: 0.75;
   z-index: 2;
   object-fit: fill;
+}
+
+#icon{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+}
+#red{
+  background-color: #FFADAD;
+}
+#orange{
+  background-color: #FFD6A5;
+}
+#yellow{
+  background-color: #FDFFB6;
+}
+#green{
+  background-color: #CAFFBF;
+}
+#blue{
+  background-color: #9BF6FF;
+}
+#indigo{
+  background-color: #A0C4FF;
+}
+#violet{
+  background-color: #BDB2FF;
+}
+#pink{
+  background-color: #FFC6FF;
 }
